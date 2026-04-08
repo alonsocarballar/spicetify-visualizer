@@ -1,7 +1,6 @@
 {
-    "name": "Visualizer",
+    "name": "Bar Visualizer",
     "description": "A high-performance, ultra-smooth physics-based audio visualizer for Spicetify.",
-    "main": "index.js",
     "preview": "preview.png",
     "readme": "README.md",
     "authors": [
