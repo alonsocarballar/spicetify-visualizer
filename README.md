@@ -19,7 +19,7 @@ A high-performance, ultra-smooth physics-based audio visualizer for Spicetify. F
 1.  Open your Spicetify config directory by running `spicetify config-dir` in your terminal.
 2.  Navigate to the `CustomApps` folder.
 3.  Create a new folder named `visualizer`.
-4.  Copy your `index.js` and `manifest.json` files into the `visualizer` folder.
+4.  Download the `.zip` file from the latest release, extract it, and copy its contents (`index.js`, `manifest.json`, etc.) into the newly created `visualizer` folder.
 5.  Add the app to your Spicetify configuration by running:
     ```bash
     spicetify config custom_apps visualizer
@@ -48,7 +48,7 @@ To access the settings panel:
 
 1.  Navigate to your Spicetify config directory: `spicetify config-dir`.
 2.  Go to `CustomApps/visualizer`.
-3.  Replace the old `index.js` with the latest version.
+3.  Download the `.zip` file from the latest release, extract it, and replace the old files in your `visualizer` folder with the new ones.
 4.  Run `spicetify apply`.
 
 ---
@@ -69,4 +69,4 @@ To access the settings panel:
 * **Bars are missing?** Ensure you are playing a song. If the screen is black, try running `spicetify restore backup apply`.
 * **UI not appearing?** The settings panel is hidden to keep the look clean. Move your cursor to the **extreme top-right corner**.
 * **Colors won't change?** Toggle "Manual Color" on and then off again to force a fresh extraction of the album art colors.
-* **Poor performance?** Make sure to turn on Hardware Acceleration on Spotify settings.
+* **Poor performance?** Make sure to turn on Hardware Acceleration in your Spotify settings.
