@@ -1,4 +1,4 @@
-# visualizer Pro
+# Spicetify visualizer
 
 A high-performance, ultra-smooth physics-based audio visualizer for Spicetify. Featuring real-time physics customization, dual-color gradients, and a reactive Neon bloom effect.
 
