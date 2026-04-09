@@ -1,4 +1,4 @@
-# Spicetify visualizer
+# Spicetify wave visualizer
 
 A high-performance, ultra-smooth physics-based audio visualizer for Spicetify. Featuring real-time physics customization, dual-color gradients, and a reactive Neon bloom effect.
 
@@ -22,11 +22,11 @@ A high-performance, ultra-smooth physics-based audio visualizer for Spicetify. F
 
 1.  Open your Spicetify config directory by running `spicetify config-dir` in your terminal.
 2.  Navigate to the `CustomApps` folder.
-3.  Create a new folder named `visualizer`.
-4.  Download the `.zip` file from the latest release, extract it, and copy its contents (`index.js`, `manifest.json`, etc.) into the newly created `visualizer` folder.
+3.  Create a new folder named `wave-visualizer`.
+4.  Download the `.zip` file from the latest release, extract it, and copy its contents (`index.js`, `manifest.json`, etc.) into the newly created `wave-visualizer` folder.
 5.  Add the app to your Spicetify configuration by running:
     ```bash
-    spicetify config custom_apps visualizer
+    spicetify config custom_apps wave-visualizer
     ```
 6.  Apply the changes:
     ```bash
@@ -38,7 +38,7 @@ A high-performance, ultra-smooth physics-based audio visualizer for Spicetify. F
 ## Configuration
 
 To access the settings panel:
-1.  Open the **visualizer** tab in the Spotify sidebar.
+1.  Open the **Waves** tab in the Spotify sidebar.
 2.  **Hover your mouse** over the top-right corner of the visualizer area.
 3.  A transparent panel will appear allowing you to tweak:
     * **Friction & Tension:** Controls how "bouncy" or "heavy" the bars feel.
@@ -51,18 +51,18 @@ To access the settings panel:
 ## Updating
 
 1.  Navigate to your Spicetify config directory: `spicetify config-dir`.
-2.  Go to `CustomApps/visualizer`.
-3.  Download the `.zip` file from the latest release, extract it, and replace the old files in your `visualizer` folder with the new ones.
+2.  Go to `CustomApps/wave-visualizer`.
+3.  Download the `.zip` file from the latest release, extract it, and replace the old files in your `wave-visualizer` folder with the new ones.
 4.  Run `spicetify apply`.
 
 ---
 
 ## Uninstallation
 
-1.  Navigate to `CustomApps` and delete the `visualizer` folder.
+1.  Navigate to `CustomApps` and delete the `wave-visualizer` folder.
 2.  Remove the app from your Spicetify config:
     ```bash
-    spicetify config custom_apps visualizer-
+    spicetify config custom_apps wave-visualizer-
     ```
 3.  Run `spicetify apply`.
 
